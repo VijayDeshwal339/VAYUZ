@@ -16,7 +16,7 @@ export const UnlockPotentialSection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
+        <div className="flex flex-col lg:flex-row items-start xl:gap-20">
           {/* Left content */}
           <div className="flex flex-col space-y-8 w-full lg:max-w-[409px]">
             <div className="space-y-4">
@@ -41,11 +41,11 @@ export const UnlockPotentialSection = () => {
               src={Rectangle}
             />
 
-            <Card className="absolute w-[40%] lg:w-[298px] h-auto lg:h-[81px] top-[50%] lg:top-[195px] right-0 p-0 overflow-hidden">
+            <Card className="absolute w-[40%] lg:w-[298px] h-auto lg:h-[81px] top-[50%] lg:top-[195px] -right-20 p-0 overflow-hidden">
               <div className="w-full h-full bg-[#d9d9d9] rounded-md bg-[url(/src/assets/code-20240410-150743-via-10015-io.png)] bg-[100%_100%]" />
             </Card>
 
-            <Card className="absolute w-[40%] lg:w-[298px] h-auto lg:h-[161px] top-[70%] lg:top-[310px] right-[20%] lg:right-[104px] p-0 overflow-hidden">
+            <Card className="absolute w-[40%] lg:w-[298px] h-auto lg:h-[161px] top-[70%] lg:top-[310px] right-[0%]   p-0 overflow-hidden">
               <div className="relative h-full w-full">
                 <div className="absolute w-full h-40 top-px bg-[#d9d9d9] rounded-md" />
                 <img
