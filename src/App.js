@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="bg-[#131313] w-full min-h-screen flex ">
       {/* Sidebar */}
-        <div className="w-[10px] xl:w-[213px] min-h-full">
+        <div className="hidden xl:flex xl:w-[213px] min-h-full">
         <Sidebar />
         </div>
 
@@ -20,7 +20,9 @@ const App = () => {
          <Header />       
             {/* Main content sections */}
             <div className="w-[100%] px-5 space-y-16">
-              {/* <UnlockPotentialSection /> */}
+              <div className="lg:flex hidden">
+              <UnlockPotentialSection />
+              </div>
               <DynamicServicesSection />
               <ServicesOverviewSection />
               <FlutterAppDevelopmentSection />
